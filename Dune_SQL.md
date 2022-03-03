@@ -5,12 +5,14 @@ Precursor:
 Query... 
 
 1. Solana.blocks = The full block history for the Solana ecosystem 
+ 
 '
 SELECT date_trunc('day', time), count(*) FROM solana.blocks WHERE time IS NOT NULL GROUP BY 1;
 '
 
-2. Solana.transactions = The data for transactions including programs called and account activity 
-'
+2. Solana.transactions = The data for transactions including programs called and account activity
+ 
+ '
 select 
     date,
     count(*) AS TPD
