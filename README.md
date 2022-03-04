@@ -4,6 +4,7 @@ Snippet Collection of Anchor Code for cut and paste creation applications on Sol
 If you want to learn *how* anchor works, use https://book.anchor-lang.com/. If you want the cut and paste of what to do, you are in the right place:
 
 *Note: Version mismatch of code incompatability is the norm in Anchor givent the current state. Thus install and mind the AVM 
+
 **Overview: Currently the '/program/lib.rs' contains virtually all proprietary business logic of what is classically considered the backend or serverside code and the '/app/' folder contains all propreitary business logic on the frontend; thus all changes exist in these folders, save for the version recorded in the 'Cargo.toml' under the 'program' folder.
 
 Precursors:
